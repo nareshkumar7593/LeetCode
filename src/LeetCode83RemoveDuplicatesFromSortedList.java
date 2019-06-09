@@ -55,9 +55,9 @@
 //}
 //
 
+// ******************************************************************************
 
-
-
+//Actual code
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -66,22 +66,26 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class LeetCode83RemoveDuplicatesFromSortedList {
-  public ListNode deleteDuplicates(ListNode head) {
 
-    ListNode copyHead = head;
+//class LeetCode83RemoveDuplicatesFromSortedList {
+//  public ListNode deleteDuplicates(ListNode head) {
+//
+//    ListNode copyHead = head;
+//
+//    if(copyHead == null)
+//      return null;
+//
+//    while(copyHead != null && copyHead.next != null){
+//      if(copyHead.val == copyHead.next.val){
+//        copyHead.next = copyHead.next.next;
+//      }
+//      else
+//        copyHead = copyHead.next;
+//    }
+//    return head;
+//
+//  }
+//}
 
-    if(copyHead == null)
-      return null;
 
-    while(copyHead != null && copyHead.next != null){
-      if(copyHead.val == copyHead.next.val){
-        copyHead.next = copyHead.next.next;
-      }
-      else
-        copyHead = copyHead.next;
-    }
-    return head;
-
-  }
-}
+// ******************************************************************************
